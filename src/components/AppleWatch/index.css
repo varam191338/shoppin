@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.heading-1 {
+  font-size: 45px;
+  margin: 0px;
+}
+
+.watch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.get-started-button {
+  height: 30px;
+  color: white;
+  background-color: rgb(43, 147, 233);
+  border-width: 0px;
+  border-radius: 20px;
+  width: 100px;
+  margin-top: 30px;
+}
+
+.icon {
+  color: black;
+}
+
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.base-image {
+  width: 630px;
+  height: 650px;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 630px;
+  height: 640px;
+}
+
+.icon-container {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 30px;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
